@@ -6,4 +6,6 @@ app.use((ctx) => {
   ctx.response.body = "Hello World!";
 });
 
+console.log("Starting at port 8080");
+
 await app.listen({ port: 8000 });
